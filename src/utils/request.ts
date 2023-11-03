@@ -1,5 +1,5 @@
-import axios, { InternalAxiosRequestConfig } from "axios"
 import type { AxiosInstance, AxiosRequestConfig, AxiosResponse } from "axios"
+import axios, { InternalAxiosRequestConfig } from "axios"
 
 interface Default {
 	code: number
