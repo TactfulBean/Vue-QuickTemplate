@@ -1,7 +1,7 @@
 import { createApp } from "vue"
 import App from "./App.vue"
 // 自定义样式文件
-
+import "@/assets/style/main.scss"
 // unocss
 import "@unocss/reset/tailwind.css"
 

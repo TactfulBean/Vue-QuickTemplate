@@ -15,13 +15,13 @@ export default defineConfig({
 		},
 		extensions: [".js", ".json", ".ts"]
 	},
-	css: {
-		preprocessorOptions: {
-			scss: {
-				additionalData: '@import "@/assets/style/main.scss";'
-			}
-		}
-	},
+	// css: {
+	// 	preprocessorOptions: {
+	// 		scss: {
+	// 			additionalData: '@import "@/assets/style/global.scss";'
+	// 		}
+	// 	}
+	// },
 	plugins: [
 		vue(),
 		UnoCSS({
