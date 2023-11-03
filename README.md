@@ -1,18 +1,32 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 + TypeScript + Vite 模板
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+具有基础配置的项目模板
 
-## Recommended IDE Setup
+## 主要依赖包
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support For `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+```json
+{
+	"dependencies": {
+		"@unocss/reset": "^0.57.1",
+		"@vueuse/core": "^10.5.0",
+		"axios": "^1.6.0",
+		"pinia": "^2.1.7",
+		"pinia-plugin-persistedstate": "^3.2.0",
+		"sass": "^1.69.5",
+		"vue": "^3.3.4"
+	},
+	"devDependencies": {
+		"@types/node": "^20.8.10",
+		"@vitejs/plugin-vue": "^4.2.3",
+		"naive-ui": "^2.35.0",
+		"prettier": "^3.0.3",
+		"sass-loader": "^13.3.2",
+		"typescript": "^5.0.2",
+		"unocss": "^0.57.1",
+		"unplugin-vue-components": "^0.25.2",
+		"vite": "^4.4.5",
+		"vite-plugin-compression": "^0.5.1",
+		"vue-tsc": "^1.8.5"
+	}
+}
+```
