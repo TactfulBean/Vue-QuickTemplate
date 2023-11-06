@@ -3,13 +3,21 @@
 		<a href="https://vitejs.dev" target="_blank">
 			<img alt="Vite logo" class="logo h-40 p-6" src="/vite.svg" />
 		</a>
-		<a-button type="primary">Arco.Design</a-button>
+		<a-button class="m-5" type="outline" @click="darkTheme">DarkTheme</a-button>
+		<a-button class="m-5" type="outline" @click="lightTheme">LightTheme</a-button>
 		<a href="https://vuejs.org/" target="_blank">
 			<img alt="Vue logo" class="vue h-40 p-6" src="/vue.svg" />
 		</a>
 	</div>
 </template>
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const darkTheme = () => {
+	document.body.setAttribute("arco-theme", "dark")
+}
+const lightTheme = () => {
+	document.body.removeAttribute("arco-theme")
+}
+</script>
 <style lang="scss" scoped>
 .logo {
 	transition: filter 300ms;

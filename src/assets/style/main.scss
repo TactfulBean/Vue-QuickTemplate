@@ -5,3 +5,8 @@ body,
 	height: 100%;
 	padding: 0;
 }
+// 主题样式
+body {
+	color: var(--color-text-1);
+	background-color: var(--color-bg-1);
+}
