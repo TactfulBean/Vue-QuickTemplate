@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AButton: typeof import('@arco-design/web-vue')['Button']
     Iconfont: typeof import('./src/components/Iconfont.vue')['default']
   }
 }

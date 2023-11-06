@@ -1,8 +1,9 @@
 <template>
-	<div class="flex-center">
+	<div class="flex-center wh-full">
 		<a href="https://vitejs.dev" target="_blank">
 			<img alt="Vite logo" class="logo h-40 p-6" src="/vite.svg" />
 		</a>
+		<a-button type="primary">Arco.Design</a-button>
 		<a href="https://vuejs.org/" target="_blank">
 			<img alt="Vue logo" class="vue h-40 p-6" src="/vue.svg" />
 		</a>
