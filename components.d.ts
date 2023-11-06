@@ -5,9 +5,8 @@
 // Read more: https://github.com/vuejs/core/pull/3399
 export {}
 
-declare module 'vue' {
-  export interface GlobalComponents {
-    AButton: typeof import('@arco-design/web-vue')['Button']
-    Iconfont: typeof import('./src/components/Iconfont.vue')['default']
-  }
+declare module "vue" {
+	export interface GlobalComponents {
+		AButton: (typeof import("@arco-design/web-vue"))["Button"]
+	}
 }
