@@ -8,29 +8,29 @@ import viteCompression from "vite-plugin-compression"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	resolve: {
-		alias: {
-			"@": resolve("./src")
-		},
-		extensions: [".js", ".json", ".ts"]
-	},
-	css: {
-		preprocessorOptions: {
-			scss: {
-				additionalData: '@import "@/assets/style/global.scss";'
-			}
-		}
-	},
-	plugins: [
-		vue(),
-		UnoCSS({
-			presets: [presetUno(), presetAttributify(), presetIcons()]
-		}),
-		vitePluginForArco({
-			style: "css"
-		}),
-		viteCompression({
-			threshold: 0
-		})
-	]
+  resolve: {
+    alias: {
+      "@": resolve("./src")
+    },
+    extensions: [".js", ".json", ".ts"]
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "@/assets/style/global.scss";'
+      }
+    }
+  },
+  plugins: [
+    vue(),
+    UnoCSS({
+      presets: [presetUno(), presetAttributify(), presetIcons()]
+    }),
+    vitePluginForArco({
+      style: "css"
+    }),
+    viteCompression({
+      threshold: 0
+    })
+  ]
 })
