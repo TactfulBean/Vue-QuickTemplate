@@ -19,7 +19,8 @@ const lightTheme = () => {
 }
 </script>
 <style lang="scss" scoped>
-.logo {
+.logo,
+.vue {
   transition: filter 300ms;
   will-change: filter;
 }
