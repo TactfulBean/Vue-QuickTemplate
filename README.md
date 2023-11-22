@@ -7,7 +7,7 @@
 ```json
 {
   "dependencies": {
-    "@unocss/reset": "^0.57.6",
+    "@unocss/reset": "^0.57.7",
     "@vueuse/core": "^10.6.1",
     "axios": "^1.6.2",
     "pinia": "^2.1.7",
@@ -18,13 +18,13 @@
   "devDependencies": {
     "@arco-design/web-vue": "^2.53.2",
     "@arco-plugins/vite-vue": "^1.4.5",
-    "@types/node": "^20.9.2",
+    "@types/node": "^20.9.4",
     "@vitejs/plugin-vue": "^4.5.0",
     "prettier": "^3.1.0",
     "sass-loader": "^13.3.2",
-    "typescript": "^5.2.2",
-    "unocss": "^0.57.6",
-    "vite": "^5.0.0",
+    "typescript": "^5.3.2",
+    "unocss": "^0.57.7",
+    "vite": "^5.0.2",
     "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^1.8.22"
   }
