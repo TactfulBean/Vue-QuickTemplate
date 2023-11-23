@@ -1,7 +1,6 @@
 import { vitePluginForArco } from "@arco-plugins/vite-vue"
 import vue from "@vitejs/plugin-vue"
 import { resolve } from "path"
-import { presetAttributify, presetIcons, presetUno } from "unocss"
 import UnoCSS from "unocss/vite"
 import { defineConfig } from "vite"
 import viteCompression from "vite-plugin-compression"
@@ -23,9 +22,7 @@ export default defineConfig({
   },
   plugins: [
     vue(),
-    UnoCSS({
-      presets: [presetUno(), presetAttributify(), presetIcons()]
-    }),
+    UnoCSS(),
     vitePluginForArco({
       style: "css"
     }),
