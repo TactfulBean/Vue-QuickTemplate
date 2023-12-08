@@ -7,25 +7,25 @@
 ```json
 {
   "dependencies": {
-    "@unocss/reset": "^0.57.7",
-    "@vueuse/core": "^10.6.1",
+    "@unocss/reset": "^0.58.0",
+    "@vueuse/core": "^10.7.0",
     "axios": "^1.6.2",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.0",
     "sass": "^1.69.5",
-    "vue": "^3.3.9"
+    "vue": "^3.3.11"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.53.3",
     "@arco-plugins/vite-vue": "^1.4.5",
-    "@types/node": "^20.10.0",
-    "@vitejs/plugin-vue": "^4.5.0",
+    "@types/node": "^20.10.4",
+    "@vitejs/plugin-vue": "^4.5.2",
     "prettier": "^3.1.0",
-    "typescript": "^5.3.2",
-    "unocss": "^0.57.7",
-    "vite": "^5.0.3",
+    "typescript": "^5.3.3",
+    "unocss": "^0.58.0",
+    "vite": "^5.0.6",
     "vite-plugin-compression": "^0.5.1",
-    "vue-tsc": "^1.8.22"
+    "vue-tsc": "^1.8.25"
   }
 }
 ```
