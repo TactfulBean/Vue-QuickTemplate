@@ -11,19 +11,19 @@
     "@vueuse/core": "^10.7.0",
     "axios": "^1.6.2",
     "pinia": "^2.1.7",
-    "pinia-plugin-persistedstate": "^3.2.0",
+    "pinia-plugin-persistedstate": "^3.2.1",
     "sass": "^1.69.5",
-    "vue": "^3.3.11"
+    "vue": "^3.3.13"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.53.3",
     "@arco-plugins/vite-vue": "^1.4.5",
-    "@types/node": "^20.10.4",
+    "@types/node": "^20.10.5",
     "@vitejs/plugin-vue": "^4.5.2",
-    "prettier": "^3.1.0",
+    "prettier": "^3.1.1",
     "typescript": "^5.3.3",
     "unocss": "^0.58.0",
-    "vite": "^5.0.6",
+    "vite": "^5.0.10",
     "vite-plugin-compression": "^0.5.1",
     "vue-tsc": "^1.8.25"
   }
