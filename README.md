@@ -12,8 +12,8 @@
     "axios": "^1.6.3",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.1",
-    "sass": "^1.69.5",
-    "vue": "^3.3.13"
+    "sass": "^1.69.6",
+    "vue": "^3.4.0"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.54.1",
