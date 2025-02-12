@@ -27,7 +27,13 @@ export default defineConfig({
       style: "css"
     }),
     viteCompression({
-      threshold: 1024
+      threshold: 10240
     })
-  ]
+  ],
+  server: {
+    open: false,
+    host: "0.0.0.0",
+    port: 5143,
+    proxy: {}
+  }
 })
