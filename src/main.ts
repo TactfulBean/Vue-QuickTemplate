@@ -6,11 +6,12 @@ import "@unocss/reset/tailwind.css"
 import { createPinia } from "pinia"
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate"
 
+import router from "@/router"
 import "virtual:uno.css"
 import { createApp } from "vue"
 import App from "./App.vue"
 
-const app = createApp(App)
+const app = createApp(App).use(router)
 
 app.config.warnHandler = () => null
 
