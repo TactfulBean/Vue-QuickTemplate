@@ -30,6 +30,10 @@ export default defineConfig({
       threshold: 10240
     })
   ],
+  build: {
+    assetsDir: "",
+    cssCodeSplit: true
+  },
   server: {
     open: false,
     host: "0.0.0.0",
